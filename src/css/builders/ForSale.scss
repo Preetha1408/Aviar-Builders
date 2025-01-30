@@ -1,0 +1,172 @@
+.contain {
+  height: 100px;
+  // background-image: url("../Images/blur-ceramic-mosaic-background.jpg");
+  // background-image: url("../Images/4683.jpg");
+  // background-image: url("../Images/luxa.org-opacity-changed-6701995.jpg");
+  // background-size:contain;
+  background-image: url("../../builders/Images/luxa.org-opacity-changed-old-painted-textured-surface-backdrop.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 20px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:767px) {
+  .contain {
+  height: 100%;
+  // background-image: url("../Images/blur-ceramic-mosaic-background.jpg");
+  // background-image: url("../Images/4683.jpg");
+  // background-image: url("../Images/luxa.org-opacity-changed-6701995.jpg");
+  // background-size:contain;
+  background-image: url("../../builders/Images/luxa.org-opacity-changed-old-painted-textured-surface-backdrop.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+}
+.heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.page-background {
+  background-image: url("../../builders/Images/HomePageImages/luxa.org-opacity-changed-tiled-floor-background.jpg");
+  // background-image: url("../Images/HomePageImages/luxa.org-opacity-changed-preview.jpg");
+  // background-image: url("../Images/HomePageImages/v880-techi-06-a.jpg");
+  background-image: url("../../builders/Images/HomePageImages/luxa.org-opacity-changed-v880-techi-06-a.jpg");
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// .tab{
+//   display: flex;
+//   flex-direction: column;
+//   width: 100%;
+//   justify-content: space-between;
+// }
+// .nav-tabs {
+//   border-bottom: none;
+// }
+
+// .nav-tabs .nav-link {
+//   color: #111;
+//   background-color: white;
+//   border: none;
+//   border-radius: 5px;
+//   font-size: 16px;
+// }
+
+// .nav-tabs .nav-link.active {
+//   background-color: #0d6efd;
+//   color: white;
+//   border-radius: 5px;
+// }
+
+// .tab-pane {
+//   display: none;
+// }
+
+// .tab-pane.active {
+//   display: block;
+// }
+// .tab-content-wrapper {
+//   width: 100%;
+//   overflow: hidden;
+// }
+
+// .tab-content-wrapper .container {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   margin: 0 -10px;
+// }
+.tab-font {
+  font-size: 18px;
+  font-weight: 300px;
+  --bs-nav-tabs-link-active-color: #0dcaf0;
+  --bs-border-width: 3px;
+  // --bs-nav-link-color: #000;
+  // --bs-nav-tabs-border-color: #000;
+  // --bs-nav-tabs-background-color: #dee2e600;
+  --bs-nav-tabs-link-active-bg: #fff0;
+  // --bs-nav-tabs-link-active-border-color: #000;
+  // --bs-nav-tabs-link-hover-border-color: #fff0;
+}
+
+.profile-card {
+  width: 100%;
+  height: 350px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .profile-card {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 1%;
+    margin-bottom: 10px;
+  }
+}
+.profile-card img {
+  width: 100%;
+  height: 330px;
+  transition: transform 0.3s;
+}
+@media (max-width: 767px) {
+.profile-card img {
+  width: 100%;
+  height: 250px;
+  transition: transform 0.3s;
+}
+}
+.crd-text{
+  text-align: justify;
+  display: inline-table;
+  // color: #0d6efd;
+}
+
+.profile-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.711);
+  color: black;
+  padding: 8px;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+
+.profile-card:hover img {
+  transform: scale(1.1);
+}
+
+.profile-card:hover .profile-card-text {
+  transform: translateY(0);
+}
+.res-row{
+  flex-direction: row;
+}
+@media (max-width: 767px) {
+  .res-row{
+  flex-direction: column;
+}
+}

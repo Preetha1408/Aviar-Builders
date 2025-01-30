@@ -1,0 +1,210 @@
+/*AREAS SERVED */
+.contain {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  // background-image: url("../Images/blur-ceramic-mosaic-background.jpg");
+  // background-image: url("../Images/4683.jpg");
+  // background-image: url("../Images/luxa.org-opacity-changed-6701995.jpg");
+  // background-size:contain;
+  // background-image: url("../Images/luxa.org-opacity-changed-old-painted-textured-surface-backdrop.jpg");
+  background-image: url("../../builders/Images/luxa.org-opacity-changed-old-painted-textured-surface-backdrop.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .contain {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    // background-image: url("../Images/blur-ceramic-mosaic-background.jpg");
+    // background-image: url("../Images/4683.jpg");
+    // background-image: url("../Images/luxa.org-opacity-changed-6701995.jpg");
+    // background-size:contain;
+    background-image: url("../../builders/Images/luxa.org-opacity-changed-old-painted-textured-surface-backdrop.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+}
+.page-background {
+  background-image: url("../../builders/Images/HomePageImages/luxa.org-opacity-changed-tiled-floor-background.jpg");
+  // background-image: url("../Images/HomePageImages/luxa.org-opacity-changed-preview.jpg");
+  // background-image: url("../Images/HomePageImages/v880-techi-06-a.jpg");
+  background-image: url("../../builders/Images/HomePageImages/luxa.org-opacity-changed-v880-techi-06-a.jpg");
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textalign {
+  width: 85%;
+  text-align: start;
+}
+.centertext {
+  width: 75%;
+  background-color: green;
+}
+.heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.builder-tren-img {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/*About AVIAR Builders */
+
+/* Add necessary styles to achieve the desired layout */
+.member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.member h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.member span {
+  display: block;
+  font-size: 14px;
+  color: #888;
+}
+
+.member .social a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.member .social i {
+  font-size: 30px;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+.member .social i:hover {
+  color: #c4ae59;
+}
+
+.iconfont {
+  font-size: 24px;
+}
+.aboutcard {
+  width: 100%;
+  height: 100%;
+  border-width: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .aboutcard {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.abouttext {
+  width: 75%;
+}
+@media (max-width: 767px) {
+  .abouttext {
+    width: 90%;
+  }
+}
+.img-team {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.social a.twitter:hover {
+  color: blue; /* Change color for Twitter icon when hovering */
+}
+
+.social a.facebook:hover {
+  color: #3b5998; /* Change color for Facebook icon when hovering */
+}
+
+.social a.instagram:hover {
+  color: #e4405f; /* Change color for Instagram icon when hovering */
+}
+
+.social a.linkedin:hover {
+  color: #0077b5; /* Change color for LinkedIn icon when hovering */
+}
+.card-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+}
+.profile-card {
+  width: 25%;
+  background-color: white;
+  height: 470px !important;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin: 10px;
+}
+@media (max-width: 767px) {
+  .profile-card {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin: 10px;
+  }
+}
+.img-team-member {
+  width: 100%;
+  height: 70%;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+.profile-card:hover .img-team-member {
+  transform: scale(1.09);
+  transition: transform 0.3s ease-in-out;
+}
+hr {
+  color: brown;
+  --bs-border-width: 2px;
+  margin-top: 2%;
+}

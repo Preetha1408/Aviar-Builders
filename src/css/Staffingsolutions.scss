@@ -1,0 +1,256 @@
+
+.ourteam {
+  
+  width: 300px;
+  height: 243px;
+}
+.match {
+  background-color: #30aee3;
+  color: aliceblue;
+  padding-top: 25px;
+}
+.development {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3px;
+}
+.profile {
+  background-color: bisque;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.home {
+  background-color: rgb(214, 250, 250);
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.tab-style {
+  background-color: rgb(214, 214, 214);
+}
+.volume-based{
+display: flex;
+justify-content: center;
+
+}
+.features .feature-box {
+  padding: 24px 20px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.features .feature-box h3 {
+  font-size: 18px;
+  color: #012970;
+  font-weight: 700;
+  margin: 0;
+}
+
+.features .feature-box i {
+  line-height: 0;
+  background: #ecf3ff;
+  padding: 4px;
+  margin-right: 10px;
+  font-size: 24px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.features .feature-box:hover i {
+  background: #4154f1;
+  color: #fff;
+}
+
+.features .feture-tabs {
+  margin-top: 120px;
+}
+
+.features .feture-tabs h3 {
+  color: #012970;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .features .feture-tabs h3 {
+    font-size: 28px;
+  }
+}
+
+.features .feture-tabs .feature-pills {
+  border-bottom: 1px solid #eee !important;
+}
+
+.features .feture-tabs .nav-link {
+  background: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  padding: 12px 0;
+  margin-right: 25px;
+  margin-bottom: -2px;
+  border-radius: 0;
+}
+.nav-link{
+    color: #000000;
+   
+}
+.nav-pills .nav-link.active{
+  color: #4154f1 !important;
+}
+
+.features .feture-tabs .nav-link.active {
+  color: #4154f1;
+  border-bottom: 3px solid #4154f1;
+}
+
+.features .feture-tabs .tab-content h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  color: #012970;
+}
+
+.features .feture-tabs .tab-content i {
+  font-size: 24px;
+  line-height: 0;
+  margin-right: 8px;
+  color: #4154f1;
+}
+
+.features .feature-icons {
+  margin-top: 120px;
+}
+
+.features .feature-icons h3 {
+  color: #012970;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .features .feature-icons h3 {
+    font-size: 28px;
+  }
+}
+
+.features .feature-icons .content .icon-box {
+  display: flex;
+}
+
+.features .feature-icons .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #012970;
+}
+
+.features .feature-icons .content .icon-box i {
+  font-size: 44px;
+  line-height: 44px;
+  color: #0245bc;
+  margin-right: 15px;
+}
+
+.features .feature-icons .content .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+//staffing 
+.staffing .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+  
+}
+
+.staffing .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #5846f9;
+}
+
+.staffing .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+
+.staffing .image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+@media (max-width: 760px) {
+  .staffing .image {
+      min-height: 185px;
+    }
+}
+@media(max-width: 760px){
+  .staffing-list{
+    width: 100% !important;
+      margin: 5% !important;
+  }
+}
+@media(max-width:991px){
+  .tab-img{
+    max-width: 83% !important;
+      height: auto;
+      margin-left: 11% !important;
+  }
+}
+@media(min-width:992px)and(max-width:1399px) {
+  .tab-img {
+    max-width: 129% !important;
+    margin-left: 50% !important;
+    
+  }
+}
+@media(min-width:1400px){
+  .tab-img {
+   
+    margin-left: 50% !important;
+
+  }
+}
+.staffing-bg{
+  background-color: #f8f8f8;
+  }
+.text-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #f5f5ff;
+  transition: ease-in-out 0.3s;
+}
+.orange{
+  color: #ee9949 !important;
+}
+.b-color{
+  color: #4154f1;
+}
+.staffing {
+  font-size: 25px;
+}
+@media(max-width: 797px){
+  .staffing{
+    font-size: 16px;
+  }
+}
+@media(min-width: 768px)and(max-width:1023px) {
+  .tab-tech-img{
+    max-width:366px !important;
+    margin-left:133px;
+
+  }
+}
+@media(max-width: 760px) {
+  .tech-title{
+    font-size: 30px;
+  }
+}

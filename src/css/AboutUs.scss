@@ -1,0 +1,328 @@
+.icon {
+  color: darkcyan;
+  align-items: center;
+}
+.iconicon {
+  color: rgb(25, 135, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.groot {
+  width: fit-content;
+  height: fit-content;
+  background-size: cover;
+}
+
+.headquartered {
+  text-align: justify;
+}
+.productive {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-size: 25px;
+  // color:azure;
+}
+.ourvalues {
+  text-align: center;
+  color: #0377b3;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.innovate {
+  text-align: center;
+  color: #0377b3;
+  font-weight: bold;
+}
+.project-management {
+  background-color: rgb(40, 147, 253);
+}
+.project-management p {
+  text-align: justify;
+}
+.flexible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.client-content .icon-styles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardsvision {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cardname {
+  margin: 30px auto;
+  width: 400px;
+  border-radius: 40px;
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.25), -3px -3px 10px 3px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.cardimages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+.iconiconic {
+  text-align: center;
+}
+.para-text {
+  text-align: justify;
+}
+.framework {
+  text-align: center;
+  color: #0377b3;
+  font-weight: bolder;
+}
+.wordpress {
+  height: 375px;
+  width: 97%;
+}
+.wordpress-content {
+  height: 375px;
+  width: 97%;
+}
+.mission-vision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.that-here {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .headquartered {
+    text-align: justify;
+    padding-left: 10px;
+  }
+}
+// core values
+.core .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.core .icon-box::before {
+  content: "";
+  position: absolute;
+  background: #e1f0fa;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.core .icon-box:hover::before {
+  background: #3498db;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.core .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: #3498db;
+  transition: all 0.3s ease-in-out;
+}
+
+.core .icon i {
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+}
+
+.core .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.core .title a {
+  color: #111;
+  font-weight: 800;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.core .description {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.core .icon-box:hover .title a,
+.core .icon-box:hover .description {
+  color: #fff;
+}
+
+.core .icon-box:hover .icon {
+  background: #fff;
+}
+
+.core .icon-box:hover .icon i {
+  color: #3498db;
+}
+@media(max-width:1023px){
+  .core-buttom{
+    margin-top: 0rem !important;
+    margin-bottom: 6%;
+  }
+}
+@media(max-width:1023px) {
+  .core-top {
+    margin-top: 0rem !important;
+  
+  }
+}
+// more services
+.our-mission {
+  padding-top: 20px;
+}
+.our-mission .details {
+  margin: 2%;
+}
+
+.our-mission .vission {
+  border: 0;
+  padding: 160px 20px 20px 20px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  // background-image: url("../components/Images/mission.jpg");
+}
+
+.our-mission .vission-body {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+}
+
+.our-mission .vission-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 7px;
+}
+
+.our-mission .vission-title a {
+  color: #222222;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.our-mission .vission-text {
+  color: #5e5e5e;
+  font-size: 22px;
+}
+
+.our-mission .vission:hover .vission-body {
+  background: #3498db;
+}
+
+.our-mission .vission:hover .read-more a,
+.our-mission .vission:hover .vission-title,
+.our-mission .vission:hover .vission-title a,
+.our-mission .vission:hover .vission-text {
+  color: #fff;
+}
+.icon_center{
+  margin-top: 11px;
+    margin-left: 3px;
+}
+//counts
+.counts {
+  padding: 70px 0 60px;
+}
+
+.counts .count-box {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+      justify-content: center;
+}
+
+
+.counts .count-box i {
+  margin-right: 20px;
+  color: #4154f1;
+}
+
+.counts .count-box span {
+  font-size: 30px;
+  display: block;
+  font-weight: 600;
+  color: #0b198f;
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+.c-icon-size{
+  font-size: 40px;
+    line-height: 0;
+}
+@media (max-width:1023px)  {
+  .count-media{
+  flex: 0 0 auto;
+  width: 50%;
+  }
+}
+@media (max-width: 797px) {
+  .count-media {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+@media(max-width:767px) {
+  .core-media {
+    margin-top: 5%;
+  }
+}

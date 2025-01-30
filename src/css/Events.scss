@@ -1,0 +1,188 @@
+// events
+.event-title h2{
+  font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    color: #29a5e1;
+    text-align: center;
+}
+.event-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.event-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.event-title h3 {
+font-size: 29px;
+  font-weight: 500;
+  color: #6c757d;
+}
+.inner-gallary-single {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  padding-top: 0px;
+}
+.inner-gallary-single img {
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  // position: absolute;
+  left: 50%;
+  top: 50%;
+  // -webkit-transform: translate(-50%, -50%);
+  // -moz-transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+.inner-content{
+  opacity: 0.9;
+    border-radius: 20px;
+    position: absolute;
+    left: 30px;
+    padding: 25px 30px;
+    bottom: -100px;
+    opacity: 0;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    background: -o-linear-gradient(110.62deg, rgba(224, 224, 224, 0.3) 6.39%, rgba(215, 215, 215, 0.3) 53.34%);
+    background: -webkit-linear-gradient(110.62deg, rgba(224, 224, 224, 0.3) 6.39%, rgba(215, 215, 215, 0.3) 53.34%);
+    background: linear-gradient(110.62deg, rgba(224, 224, 224, 0.3) 6.39%, rgba(215, 215, 215, 0.3) 53.34%);
+    mix-blend-mode: normal;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 90%;
+    max-width: 462px;
+  }
+.c-width{
+  width: 398px !important;
+  @media (min-width:992px) and(max-width:1240px){
+    width: 285px !important;
+  }
+}
+.a.img:hover{
+}
+// carousel
+.carousel-indicators  {
+ top :100%;
+}
+// .carousel-indicators .active {
+//   background-color: #009bdf;
+// }
+.carousel-indicators [data-bs-target] {
+  // margin-top: 87%;
+  // box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #aea8a89c;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-radius: 50%;
+}
+.carousel-indicators [data-bs-target].active {
+  // margin-top: 87%;
+  // box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color:#009bdf;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-radius: 50%;
+}
+
+
+.carousel-control-prev {
+  position: absolute;
+    top: 50%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    /* font-size: 49px; */
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.28);
+    border: 0;
+    border-radius: 50%;
+    opacity: .5;
+    transition: opacity .15s ease;
+    -webkit-transform: translate(0, -50%);
+      cursor: pointer;
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+  left: 2%;
+}
+
+.carousel-control-next {
+position: absolute;
+  top: 50%;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  /* font-size: 49px; */
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.28);
+  border: 0;
+  border-radius: 50%;
+  opacity: .5;
+  transition: opacity .15s ease;
+  right: 2%;
+  -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 0.5;
+  /* Set the opacity of the buttons on hover */
+}

@@ -1,0 +1,58 @@
+.log {
+  width: 110%;
+  height: 60%;
+  margin-left: 20%;
+  margin-top: 25%;
+}
+@media(max-width: 797px){
+  .log{
+      width: 110%;
+        height: 100%;
+        margin-left: 2%;
+        margin-top: 2%;
+  }
+}
+    @media(width:768px) {
+      .log {
+          width: 118%;
+            height: 82%;
+            margin-left: 5%;
+            margin-top: 16%;
+      }
+
+}
+.apply {
+  width: 100%;
+}
+.general {
+  text-align: justify;
+  background-color: rgb(212, 241, 241);
+  padding: 16px 16px 16px 16px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.disability{
+  text-align: center;
+  color: blue;
+}
+.resume-form{
+  width: 100%;
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  
+}
+@media (max-width: 797px) {
+  .resume-form{
+      margin-top: 7%;
+        width: 105%;
+        border-top: 3px solid #47b2e4;
+        border-bottom: 3px solid #47b2e4;
+        padding: 12px;
+        background: #fff;
+        box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+}

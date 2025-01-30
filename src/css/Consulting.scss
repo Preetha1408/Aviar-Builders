@@ -1,0 +1,227 @@
+.test {
+  height: 320px;
+  width: -webkit-fill-available;
+ 
+}
+.business {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.content {
+  height: 320px;
+  width: 320px;
+
+}
+.depth {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+ 
+.connect{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mapping{
+  background-color: blue;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-radius: 45px;
+ color: aliceblue;
+}
+.cloud{
+  margin-top: 20px;
+  text-align: center;
+}
+.know{
+   padding-top: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+// consulting
+.values .box {
+  padding: 30px;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.values .box img {
+  padding: 30px 50px;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.values .box h3 {
+  font-size: 24px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.values .box:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.values .box:hover img {
+  transform: scale(1);
+}
+// consulting
+#advanced-features {
+  overflow: hidden;
+}
+
+#advanced-features .features-row {
+  padding: 60px 0 30px 0;
+}
+@media(max-width:797px)  {
+  #advanced-features .features-row {
+      padding: 0px 0 30px 0;
+    }
+}
+@media(max-width:1023px) {
+  #advanced-features .features-row {
+    padding: 15px 0 30px 0;
+  }
+}
+
+#advanced-features h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+}
+@media(max-width:797px){
+  #advanced-features h2 {
+      margin-top: 6%;
+    }
+}
+
+#advanced-features h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #999;
+}
+
+#advanced-features p {
+  line-height: 35px;
+  color: #777;
+  margin-bottom: 30px;
+  font-size: 22px;
+  text-align: justify;
+}
+@media (max-width:797px) {
+  #advanced-features p {
+      line-height: 35px;
+      color: #777;
+      margin-bottom: 30px;
+      font-size: 23px;
+    }
+}
+
+#advanced-features i {
+  color: #666666;
+  font-size: 64px;
+  transition: 0.5s;
+  float: left;
+  padding: 0 15px 0px 0;
+  line-height: 1;
+}
+
+#advanced-features i:before {
+  background: #1dc8cd;
+  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#advanced-features .advanced-feature-img-right {
+  max-width: 100%;
+  float: right;
+ box-shadow: #000;
+border-radius: 13px;
+}
+@media(max-width:797px){
+  #advanced-features .advanced-feature-img-right {
+      
+      margin: 0% !important;
+    }
+}
+@media(max-width:1023px){
+  #advanced-features .advanced-feature-img-right {
+      max-width: 100%;
+      float: none;
+      box-shadow: #000;
+      border-radius: 13px;
+      margin: 6%;
+    }
+}
+#advanced-features .advanced-feature-img-left {
+  max-width: 100%;
+  float: left;
+  margin-top: 5%;
+  border-radius: 13px !important;
+}
+@media(max-width:797px) {
+  #advanced-features .advanced-feature-img-left {
+
+    margin: 0% !important;
+  }
+}
+@media(max-width:1023px) {
+  #advanced-features .advanced-feature-img-left {
+      max-width: 100%;
+      float: none;
+      margin-top: 5%;
+      border-radius: 13px !important;
+      margin-left: 12%;
+      margin-bottom: 4%;
+    }
+}
+
+// @media (max-width: 768px) {
+
+//   #advanced-features .advanced-feature-img-right,
+//   #advanced-features .advanced-feature-img-left {
+//     max-width: 50%;
+//   }
+// }
+
+// @media (max-width: 797px) {
+
+//   #advanced-features .advanced-feature-img-right,
+//   #advanced-features .advanced-feature-img-left {
+//     max-width: 100%;
+//     float: none;
+//     padding: 0 0 30px 0;
+//   }
+// }
+
+.agile-bg{
+background: url("../components/HomePage/—Pngtree—technology\ business\ line\ ppt\ background_931731.jpg") no-repeat;
+// background:linear-gradient(rgba(51, 53, 57, 0.5), rgba(32, 35, 42, 0.5)), url("../components/Images/work-gc36ca5681_1280.jpg") no-repeat;
+background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.agile-font{
+  font-size: 20px;
+}
+@media(max-width:760px){
+  .agile-font {
+      font-size: 19px;
+    }
+}
+@media(max-width:425px){
+.agile-title{
+  font-size: 28px !important;
+}
+}

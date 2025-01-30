@@ -1,0 +1,132 @@
+.have{
+  color:#6a6afb;
+}
+  
+
+.mapping{
+  background-color:#009bdf;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  border-radius: 45px;
+ color: aliceblue;
+ margin-bottom: 25px;
+}
+.gis_Image {
+  padding: 80px 0;
+  background: url("../components/Images/gis-2.jpg")fixed center center;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.gis_Image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background:#00000078;
+}
+.gis_text {
+  color:#ffff;
+}
+.gis_text_style{
+  font-weight: bold;
+  font-size: 23px;
+  padding: 0px 0px 0px 30px;
+}
+@media (max-width: 797px) {
+.gis_text_style {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 0px 0px 0px;
+  }
+}
+.gis_header {
+  display: flex;
+  width: 100%;
+ justify-content: center;
+}
+.gis_header_text{
+  font-weight:bolder !important;
+  color: #ffff !important;
+  font-size: 40px !important;
+}
+@media (max-width: 797px) {
+  .gis_header_text {
+      font-weight: bolder !important;
+      color: #ffff !important;
+      font-size: 27px !important;
+    }
+}
+// services are
+.list .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #f5f5ff;
+  transition: ease-in-out 0.3s;
+}
+
+.list .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.list .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 18px !important;
+  text-decoration: none;
+}
+
+.list .icon-box h3 a {
+  color: #010483;
+  transition: ease-in-out 0.3s;
+}
+
+.list .icon-box h3 a:hover {
+  color: #01036f;
+}
+
+.list .icon-box:hover {
+  background: #ebebff;
+}
+.l-h2{
+      font-size: 20px;
+        font-weight: 600;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #aaaaaa;
+        font-family: "Poppins", sans-serif;
+}
+.l-h2::after{
+  content: "";
+    width: 120px;
+    height: 2px;
+    display: inline-block;
+    background: #009bdf;
+    margin: 4px 12px;
+}
+.l-p{
+      margin: 0;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #009bdf;
+}
+// gis
+.gis{
+  border-radius: 30px;
+  width:80%;
+  margin-left: 10%;
+  background-color: #f8f8f899;
+}

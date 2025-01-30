@@ -1,0 +1,451 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fs-25 {
+  font-size: 20px !important;
+}
+.Dot-Remove {
+  list-style-type: none;
+}
+/* accordian */
+.boder-left-title {
+  border-left: 4px solid #47b2e4;
+  font-size: 14px;
+  line-height: 30px;
+  padding-left: 30px;
+  margin-left: 30px;
+}
+.builders-community-links-title {
+  position: relative;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 24px;
+  padding: 0 5px 5px;
+  font-weight: 200;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #47b2e4;
+}
+.community-link-caption {
+  color: #545454;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  position: relative;
+}
+hr {
+  color: brown;
+}
+/* services */
+.construction {
+  /* height: 100vh; */
+}
+
+.service-center {
+  display: flex;
+  justify-content: center;
+}
+
+.service-header {
+  color: #000;
+  font-weight: 200;
+  display: flex;
+  text-transform: uppercase;
+  /* border-bottom: 1px solid #bdab10; */
+  /* padding: 0 20px 15px; */
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .custom-title {
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-construction-bg {
+    padding: 10px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-heading {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-header {
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .commercial-title {
+    font-size: 20px;
+  }
+}
+
+.service-heading {
+  font-size: 20px;
+  font-weight: 200;
+  color: #000;
+  font-family: playfair display;
+  padding-bottom: 20px;
+}
+
+.service-content {
+  font-size: 14px;
+  color: #545454;
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+.border {
+  border-radius: 10px;
+}
+
+.borders {
+  border-radius: 10px;
+  height: 300px;
+  width: 80%;
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .borders {
+    border-radius: 10px;
+    height: 240px;
+    width: 80%;
+  }
+}
+
+.border:hover {
+  transform: scale(1.2);
+  transition: 0.3s all ease-in-out;
+}
+
+.borders:hover {
+  transform: scale(1.1);
+  transition: 0.2s all ease-in-out;
+}
+
+.service-remodal {
+  font-size: 17px;
+  font-weight: 200;
+  color: #000;
+  font-family: playfair display;
+  padding-bottom: 20px;
+}
+
+.service-display {
+  display: flex;
+  justify-content: center;
+}
+
+.headingfont {
+  font-family: "Playfair Display", serif !important;
+}
+
+.custom-construction-bg {
+  background-image: url("./Images/Services/background\ image.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 150px;
+  position: relative;
+  font-family: Jost, sans-serif;
+}
+
+.commercial-title {
+  color: #000;
+  font-family: playfair display;
+  font-weight: 200;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+.display {
+  padding: 5px 70px;
+  font-size: 16px;
+}
+
+.custom-bg {
+  background-image: url("./Images/Services/WhatsApp\ Image\ 2023-07-05\ at\ 4.03.36\ PM\ \(3\).jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.custom-style {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.custom-color {
+  color: #bdab10;
+  text-decoration: none;
+}
+
+.custom-colors {
+  color: #5ca5f8;
+  text-decoration: none;
+}
+
+.service-font {
+  font-size: 14px;
+  color: #545454;
+  line-height: 30px;
+  padding-left: 30px;
+  margin-left: 30px;
+  border-left: 4px solid #bdab10;
+}
+
+.service-real {
+  vertical-align: baseline;
+  font-size: 18px;
+  line-height: 24px;
+  margin: "10px";
+}
+
+.real-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.remodal {
+  left: 0;
+  top: 10px;
+  height: 20px;
+  width: 65px;
+}
+
+.service-download {
+  display: inline-block;
+  transition: all 0.2s linear;
+  padding: 10px 30px;
+  color: #000;
+  border: 1px solid #000;
+  justify-content: center;
+  width: auto;
+}
+
+.service-title {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  padding: 0 10px 15px;
+  font-weight: 250;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #bdab10;
+  width: 300px;
+  color: #000;
+}
+
+.app {
+  width: 25%;
+  height: 400px;
+}
+
+.horizontal-line {
+  border-color: #bdab10;
+}
+
+@media (max-width: 768px) {
+  .horizontal {
+    padding-left: 0px;
+  }
+}
+
+.remodal-title {
+  font-size: 36px;
+  line-height: 47px;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .row-media {
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 320px) {
+  .frequents {
+    width: 90%;
+  }
+}
+.service-gallery {
+  height: 400px;
+  width: 40%;
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .service-gallery {
+    height: 35%;
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .row-media {
+    flex-direction: column !important;
+  }
+}
+/* services-end */
+h2 {
+  font-size: 38px !important;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 24px !important;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}
+p {
+  font-size: 18px !important;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 14px !important;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}
+h5 {
+  color: #0d6efd !important;
+  font-size: 21px !important;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600 !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media (max-width: 768px) {
+  h5 {
+    color: #0d6efd !important;
+    font-size: 17px !important;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600 !important;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
+h6 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600 !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 768px) {
+  h6 {
+    font-size: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+h4 {
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600 !important;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  h4 {
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600 !important;
+    margin-top: 5px;
+  }
+}
+.common-header {
+  font-size: 38px !important;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+@media (max-width: 425px) {
+  .common-header {
+    max-width: min-content;
+    font-size: 22px !important;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 500;
+  }
+}
+.contain {
+  height: 100px;
+  background-image: url("./Images/luxa.org-opacity-changed-old-painted-textured-surface-backdrop.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 20px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .contain {
+    height: 100%;
+    background-image: url("./Images/luxa.org-opacity-changed-old-painted-textured-surface-backdrop.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,245 @@
+.contain {
+  height: 100px;
+  background-image: url("../../builders/Images/luxa.org-opacity-changed-old-painted-textured-surface-backdrop.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-background {
+  background-image: url("../../builders/Images/HomePageImages/luxa.org-opacity-changed-tiled-floor-background.jpg");
+  background-image: url("../../builders/Images/HomePageImages/luxa.org-opacity-changed-v880-techi-06-a.jpg");
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  padding: 20px;
+}
+.presentation-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
+
+.profile-card {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-card img {
+  width: 100%;
+  height: 375px;
+  transition: transform 0.3s;
+}
+
+
+
+@media (max-width: 767px) {
+  .profile-card {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 1%;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .profile-card img {
+    width: 100%;
+    height: 250px;
+    transition: transform 0.3s;
+  }
+}
+.crd-text {
+  text-align: justify;
+  display: inline-table;
+}
+
+.profile-card:hover img {
+  transform: scale(1.1);
+}
+
+.profile-card:hover .profile-card-text {
+  transform: translateY(0);
+}
+.res-row {
+  flex-direction: row;
+}
+@media (max-width: 767px) {
+  .res-row {
+    flex-direction: column;
+  }
+}
+
+.profile-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.711);
+  color: black;
+  padding: 8px;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+.profile-card {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .profile-card img {
+    width: 100%;
+    height: 375px;
+    transition: transform 0.3s;
+  }
+
+
+
+  @media (max-width: 767px) {
+    .profile-card {
+      width: 100%;
+      background-color: white;
+      height: 100%;
+      border-radius: 5px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      padding: 1%;
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width: 767px) {
+    .profile-card img {
+      width: 100%;
+      height: 250px;
+      transition: transform 0.3s;
+    }
+  }
+  .crd-text {
+    text-align: justify;
+    display: inline-table;
+  }
+  
+  .profile-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .profile-card:hover .profile-card-text {
+    transform: translateY(0);
+  }
+  .res-row {
+    flex-direction: row;
+  }
+  @media (max-width: 767px) {
+    .res-row {
+      flex-direction: column;
+    }
+  }
+  
+  .profile-card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.711);
+    color: black;
+    padding: 8px;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+  }
+  .crd-text {
+    text-align: justify;
+    display: inline-table;
+  }
+  .ourhomes{
+    
+        height: 100px;
+        background-image: url("../../builders/Images/luxa.org-opacity-changed-old-painted-textured-surface-backdrop.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 20px;
+        padding-bottom: 0px;
+   
+  }
+
+
+  .maincenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .page-background {
+    background-image: url("../../builders/Images/HomePageImages/luxa.org-opacity-changed-tiled-floor-background.jpg");
+    background-image: url("../../builders/Images/HomePageImages/luxa.org-opacity-changed-v880-techi-06-a.jpg");
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    padding: 20px;
+  }
+  .font {
+    font-family: Jost,sans-serif;
+  }
+.crd-text {
+  text-align: justify;
+  display: inline-table;
+}
+.ourhomes{
+  
+      height: 100px;
+      background-image: url("../../builders/Images/luxa.org-opacity-changed-old-painted-textured-surface-backdrop.jpg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      padding: 20px;
+      padding-bottom: 0px;
+ 
+}
+
+
+.maincenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-background {
+  background-image: url("../../builders/Images/HomePageImages/luxa.org-opacity-changed-tiled-floor-background.jpg");
+  background-image: url("../../builders/Images/HomePageImages/luxa.org-opacity-changed-v880-techi-06-a.jpg");
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  padding: 20px;
+}
+.font {
+  font-family: Jost,sans-serif;
+}
